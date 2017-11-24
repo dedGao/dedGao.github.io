@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
+  color: #262a30;
   background: #fff;
 }
 @media (max-width: 767px) {
@@ -277,7 +277,7 @@ p {
   margin: 0 0 20px 0;
 }
 a {
-  color: #555;
+  color: #ccc;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
@@ -907,7 +907,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #555;
+  color: #ccc;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -946,7 +946,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #262a30;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1566,7 +1566,7 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #ccc;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1670,16 +1670,6 @@ pre .javascript .function {
   max-width: 100%;
   display: inline-block;
   margin: 0.8em 2em 0 2em;
-}
-#wechat:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
-}
-#alipay:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
 }
 #bitcoin:hover p {
   animation: roll 0.1s infinite linear;
@@ -1927,7 +1917,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #476cf2;
+  background: #745265;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2765,4 +2755,15 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
+  }
 }
